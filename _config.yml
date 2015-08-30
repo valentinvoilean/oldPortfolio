@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            Valentin Voilean
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Valentin-Marian Voilean
+  avatar: valentin-voilean.jpg
+  bio: I focus on quality and I pay great attention to details.
+  email: contact@valentinvoilean.com
+  disqus-shortname: valentinvoilean
+  twitter: #username
+  facebook: valentin.voilean
+  google:
+    plus: 108823900806509263943
+    analytics: UA-66691207-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: valentinvoilean
+  stackoverflow: 2670603/vvm
+  linkedin: vvoilean
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
