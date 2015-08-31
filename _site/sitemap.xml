@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>//valentinvoilean.com/portfolio/</loc>
+    <loc>http://www.valentinvoilean.com/portfolio/</loc>
     <lastmod>2015-08-31T08:15:08+02:00</lastmod>
   </url>
   <url>
-    <loc>//valentinvoilean.com/about/</loc>
+    <loc>http://www.valentinvoilean.com/about/</loc>
     <lastmod>2015-08-31T08:15:08+02:00</lastmod>
   </url>
   <url>
-    <loc>//valentinvoilean.com/contact/</loc>
+    <loc>http://www.valentinvoilean.com/contact/</loc>
     <lastmod>2015-08-31T08:15:08+02:00</lastmod>
   </url>
   <url>
-    <loc>//valentinvoilean.com/posts/</loc>
+    <loc>http://www.valentinvoilean.com/posts/</loc>
     <lastmod>2015-08-31T08:15:08+02:00</lastmod>
   </url>
   <url>
-    <loc>//valentinvoilean.com/</loc>
+    <loc>http://www.valentinvoilean.com/</loc>
     <lastmod>2015-08-31T08:15:08+02:00</lastmod>
   </url>
   <url>
-    <loc>//valentinvoilean.com/resume/index.html</loc>
+    <loc>http://www.valentinvoilean.com/resume/index.html</loc>
     <lastmod>2015-08-15T16:06:40+02:00</lastmod>
   </url>
 </urlset>
