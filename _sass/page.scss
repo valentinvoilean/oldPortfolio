@@ -754,11 +754,11 @@ $button-size: 1.5rem;
 		}
 	}
 	&__item {
+		@include notouch;
 		display: inline-block;
 		margin-right: 5px;
 		padding: 5px 10px;
 		outline: none;
-		user-select: none;
 		&:hover,
 		&.is-active {
 			background: black;
