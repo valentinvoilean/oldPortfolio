@@ -757,11 +757,14 @@ $button-size: 1.5rem;
 		display: inline-block;
 		margin-right: 5px;
 		padding: 5px 10px;
+		outline: none;
+		user-select: none;
 		&:hover,
 		&.is-active {
 			background: black;
 			cursor: pointer;
 			color: white;
+
 		}
 	}
 }
