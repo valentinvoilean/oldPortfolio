@@ -49,6 +49,6 @@
                     _$hiddenElements = null;
                 }
             }
-        })
+        });
     });
 }(jQuery));
