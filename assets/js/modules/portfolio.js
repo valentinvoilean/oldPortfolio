@@ -5,7 +5,8 @@
         var options = {
                 portfolioListSelector: '.portfolio__list',
                 potfolioItemSelector:  '.portfolio__item',
-                portfolionavItemSelector: '.portfolioNav__item'
+                portfolionavItemSelector: '.portfolioNav__item',
+                isActiveClass: 'is-active'
             },
 
             _$hiddenElements,
@@ -30,6 +31,9 @@
             if ((currentCategory !== _lastCategory) && currentCategory !== 'photography') {
                 var $removedElements;
 
+                $(options.portfolionavItemSelector).removeClass(options.isActiveClass);
+                $(this).addClass(options.isActiveClass);
+
                 _lastCategory = currentCategory;
                 $removedElements = $(options.potfolioItemSelector).not('.' + currentCategory);
 
@@ -37,8 +41,13 @@
                     _$el.prepend( _$hiddenElements ).masonry( 'prepended', _$hiddenElements );
                 }
 
-                _$hiddenElements = $removedElements.clone();
-                _$el.masonry( 'remove', $removedElements).masonry('layout');
+                if (currentCategory !== 'all') {
+                    _$hiddenElements = $removedElements.clone();
+                    _$el.masonry( 'remove', $removedElements).masonry('layout');
+                }
+                else {
+                    _$hiddenElements = null;
+                }
             }
         })
     });
