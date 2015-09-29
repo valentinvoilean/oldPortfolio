@@ -42,3 +42,7 @@ $(function() {
     $("#drawer").toggleClass("js-hidden");
   });
 });
+
+$(window).on('load', function(){
+    UTIL.portfolio.init();
+});
