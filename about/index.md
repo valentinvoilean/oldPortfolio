@@ -25,12 +25,12 @@ For more details about me, feel free to check my [résumé](/resume).
 
 * HTML5, CSS3, 
 * SASS, LESS, Stylus
-* JavaScript, ES6, CoffeeScript
-* jQuery, Backbone, Angular, Node, Express
+* JavaScript, ES6
+* React, Angular, Backbone, jQuery, Node, MongoDB
 
-* PHP, Java, Python
+* PHP, Python
 * Wordpress, Joomla, Drupal
-* Magento, Prestashop, Virtuemart, Shopify
+* Magento, Prestashop, Shopify, Virtuemart
 * CQ5, AEM
 
 * SVN, GIT
